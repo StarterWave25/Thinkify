@@ -33,7 +33,6 @@ export const validateRegisterForm = (values) => {
 export const registerSubmitHandler = async (values, registerUser, navigate) => {
     try {
         const data = await registerUser(values).unwrap();
-        console.log(data)
         navigate("/home");
     } catch (err) {
         console.log(err);

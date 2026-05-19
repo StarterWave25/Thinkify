@@ -20,7 +20,7 @@ function Problem() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsHintsTimerCompleted(true);
-        }, 120);
+        }, 120000);
         return () => clearTimeout(timer);
     }, [id]);
 
