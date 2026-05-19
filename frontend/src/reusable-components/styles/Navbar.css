@@ -52,7 +52,7 @@
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
-    padding: 0.6rem 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
     transition: all 0.3s ease;
     opacity: 0.8;
@@ -72,8 +72,8 @@
 }
 
 .nav-icon {
-    width: 18px;
-    height: 18px;
+    width: clamp(0.5rem, 1vw, 1rem);
+    height: clamp(0.5rem, 1vw, 1rem);
     stroke: currentColor;
     stroke-width: 2;
     fill: none;
@@ -86,20 +86,19 @@
     background: rgba(255, 107, 107, 0.1);
     color: #ff6b6b;
     border: 1px solid rgba(255, 107, 107, 0.2);
-    padding: 0.6rem 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     font-weight: 600;
     transition: all 0.3s ease;
-    margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
     .navbar-container {
         top: 0.5rem;
     }
-    
+
     .navbar-glass {
         padding: 0.5rem 1rem;
     }
