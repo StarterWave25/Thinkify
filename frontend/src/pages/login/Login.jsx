@@ -73,7 +73,7 @@ function Login() {
 
             <span
                 onClick={() => handleForgotPassword(formik, forgotPassword)}
-                style={{ cursor: 'pointer' }}>
+                style={{ cursor: 'pointer', color: 'var(--green)' }}>
                 Password Forgotten??
             </span>
 

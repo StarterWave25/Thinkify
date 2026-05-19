@@ -37,10 +37,10 @@
 
 .hint-dropdown {
     padding: 1rem;
-    border: 2px solid var(--blue);
+    border: 2px solid var(--green);
     border-radius: 4px;
     cursor: pointer;
-    color: var(--low-blue);
+    color: var(--low-green);
     display: flex;
     flex-direction: column;
 }

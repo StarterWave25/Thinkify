@@ -33,7 +33,7 @@
 .problem-category {
     font-size: clamp(1rem, 1.2vw, 1.5rem);
     font-weight: 600;
-    color: var(--low-blue);
+    color: var(--low-green);
 }
 
 .problem-category::before {
