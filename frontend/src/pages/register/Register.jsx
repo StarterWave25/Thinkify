@@ -16,8 +16,7 @@ function Register() {
     const { data, isLoading, isFetching } = useGetMeQuery();
 
     const isLoggedIn = !!data;
-
-    // console.log(isLoggedIn, data);
+    
     useEffect(() => {
         if (!isLoading && !isFetching && isLoggedIn) {
             navigate("/home");

@@ -8,7 +8,6 @@ function ProblemsList({ difficulty }) {
     const filteredProblems = useGetAllProblemsByDifficultyQuery(difficulty, { skip: !difficulty });
 
     const { data, isLoading } = difficulty ? filteredProblems : allProblems;
-    console.log(data);
 
     if (isLoading) {
         return <section className="problems-section">
