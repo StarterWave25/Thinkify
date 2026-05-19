@@ -41,7 +41,7 @@
 .problem-card.easy,
 .problem-difficulty.easy {
     background: linear-gradient(130deg, rgba(0, 0, 0, 0.5) 70%, rgba(0, 128, 0, 0.5));
-    color: var(--blue);
+    color: var(--green);
     border: 2px solid green;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .status {
-    color: var(--dark-blue);
+    color: var(--dark-green);
     background-color: white;
     width: fit-content;
     text-transform: capitalize;

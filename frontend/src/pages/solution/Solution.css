@@ -15,7 +15,7 @@
 
 .unified-card {
     background: rgba(0, 80, 52, 0.1);
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--dark-green);
     border-radius: 12px;
     padding: clamp(1.5rem, 2vw, 2.5rem);
     backdrop-filter: blur(10px);
@@ -40,13 +40,13 @@
 .score-value {
     font-family: 'cabinet';
     font-size: clamp(3.5rem, 6vw, 5rem);
-    color: var(--blue);
+    color: var(--green);
     line-height: 1;
 }
 
 .score-total {
     font-size: clamp(1.2rem, 1.5vw, 1.5rem);
-    color: var(--low-blue);
+    color: var(--low-green);
     opacity: 0.7;
 }
 
@@ -77,7 +77,7 @@
 
 .item-label {
     font-size: 0.85rem;
-    color: var(--low-blue);
+    color: var(--low-green);
     text-transform: uppercase;
     opacity: 0.8;
 }
@@ -109,7 +109,7 @@
 
 .card-title {
     font-size: clamp(1.4rem, 1.8vw, 1.8rem);
-    border-left: 4px solid var(--blue);
+    border-left: 4px solid var(--green);
     padding-left: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -130,7 +130,7 @@
 .feedback-group h3 {
     font-size: 1.1rem;
     margin-bottom: 0.75rem;
-    color: var(--low-blue);
+    color: var(--low-green);
 }
 
 .feedback-group p {
@@ -140,7 +140,7 @@
     opacity: 0.9;
 }
 
-.feedback-group.positive h3 { color: var(--blue); }
+.feedback-group.positive h3 { color: var(--green); }
 .feedback-group.negative h3 { color: #ff6b6b; } /* Soft red for weaknesses */
 .feedback-group.actionable h3 { color: #ffd93d; } /* Soft gold for advice */
 
@@ -163,7 +163,7 @@
 
 .comparison-item h3 {
     font-size: 1.1rem;
-    color: var(--blue);
+    color: var(--green);
     margin-bottom: 0.75rem;
 }
 
@@ -193,8 +193,8 @@
 
 .pattern-tag {
     background: rgba(43, 206, 130, 0.15);
-    color: var(--blue);
-    border: 1px solid var(--blue);
+    color: var(--green);
+    border: 1px solid var(--green);
 }
 
 .mistake-tag {
@@ -214,7 +214,7 @@
 .typing-text {
     font-family: 'cabinet';
     font-size: 1.5rem;
-    color: var(--blue);
+    color: var(--green);
     animation: pulse 2s infinite ease-in-out;
 }
 

@@ -23,13 +23,13 @@
     padding: 1.5rem;
     background: rgba(0, 80, 52, 0.05);
     border-radius: 12px;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--dark-green);
     backdrop-filter: blur(10px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submission-card-link:hover .submission-item {
-    border-color: var(--blue);
+    border-color: var(--green);
     background: rgba(43, 206, 130, 0.05);
 }
 
@@ -56,7 +56,7 @@
     text-transform: uppercase;
 }
 
-.difficulty-easy { background: rgba(43, 206, 130, 0.1); color: var(--blue); border: 1px solid var(--blue); }
+.difficulty-easy { background: rgba(43, 206, 130, 0.1); color: var(--green); border: 1px solid var(--green); }
 .difficulty-medium { background: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid #f59e0b; }
 .difficulty-hard { background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid #ef4444; }
 
@@ -78,7 +78,7 @@
 .stat-label {
     font-size: 0.75rem;
     text-transform: uppercase;
-    color: var(--low-blue);
+    color: var(--low-green);
     opacity: 0.7;
 }
 
@@ -89,14 +89,14 @@
 }
 
 .stat-data.highlight {
-    color: var(--blue);
+    color: var(--green);
 }
 
 .submission-card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--blue);
+    color: var(--green);
     font-weight: 600;
 }
 
@@ -128,9 +128,9 @@
     gap: 1.5rem;
     padding: 4rem 2rem;
     background: rgba(0, 80, 52, 0.05);
-    border: 2px dashed var(--dark-blue);
+    border: 2px dashed var(--dark-green);
     border-radius: 12px;
-    color: var(--low-blue);
+    color: var(--low-green);
     text-align: center;
 }
 

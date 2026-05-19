@@ -11,7 +11,7 @@
     gap: 0.75rem;
     background: rgba(0, 80, 52, 0.1);
     border-radius: 10px;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--dark-green);
     min-width: 200px;
     flex: 1;
     backdrop-filter: blur(10px);
@@ -19,12 +19,12 @@
 }
 
 .dashboard-stat-card:hover {
-    border-color: var(--blue);
+    border-color: var(--green);
     background: rgba(43, 206, 130, 0.05);
 }
 
 .dashboard-stat-label {
-    color: var(--low-blue);
+    color: var(--low-green);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@
 }
 
 .dashboard-stat-value {
-    color: var(--blue);
+    color: var(--green);
     font-family: 'cabinet';
     font-size: 2.5rem;
     line-height: 1;

@@ -21,14 +21,14 @@
 .home-title {
     font-family: 'cabinet';
     font-size: clamp(2.5rem, 5vw, 4rem);
-    color: var(--blue);
+    color: var(--green);
     margin-bottom: 0.5rem;
 }
 
 .section-heading {
     font-family: 'cabinet';
     font-size: clamp(1.5rem, 2vw, 2rem);
-    color: var(--low-blue);
+    color: var(--low-green);
     margin-bottom: 1rem;
 }
 
@@ -37,6 +37,6 @@
     background: linear-gradient(135deg, rgba(0, 80, 52, 0.2) 0%, rgba(43, 206, 130, 0.05) 100%);
     padding: clamp(2rem, 4vw, 3rem);
     border-radius: 12px;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--dark-green);
     backdrop-filter: blur(10px);
 }

@@ -1,17 +1,17 @@
 /* :root {
     --black: black;
-    --dark-blue: rgb(0, 40, 110);
+    --dark-green: rgb(0, 40, 110);
     --low-dark-blue: rgb(0, 78, 205);
-    --blue: rgb(0, 115, 247);
-    --low-blue: rgb(150, 225, 255);
+    --green: rgb(0, 115, 247);
+    --low-green: rgb(150, 225, 255);
     --white: white;
 } */
 
 /* :root {
     --black: black;
-    --dark-blue: rgb(0, 65, 81);
-    --blue: rgb(69, 215, 255);
-    --low-blue: rgb(170, 235, 255);
+    --dark-green: rgb(0, 65, 81);
+    --green: rgb(69, 215, 255);
+    --low-green: rgb(170, 235, 255);
     --white: white;
 } */
 
@@ -27,9 +27,9 @@
 
 :root {
     --black: black;
-    --dark-blue: rgb(0, 80, 52);
-    --blue: rgb(43, 206, 130);
-    --low-blue: rgb(215, 255, 220);
+    --dark-green: rgb(0, 80, 52);
+    --green: rgb(43, 206, 130);
+    --low-green: rgb(215, 255, 220);
     --white: white;
 }
 
@@ -43,10 +43,10 @@
 
 html{
     scrollbar-width: thin;
-    scrollbar-color: var(--blue) var(--black);
+    scrollbar-color: var(--green) var(--black);
 }
 body {
-    background: linear-gradient(130deg, rgb(7, 10, 7) 80%, var(--dark-blue));
+    background: linear-gradient(130deg, rgb(7, 10, 7) 80%, var(--dark-green));
     background-attachment: fixed;
 }
 
@@ -65,7 +65,7 @@ h4,
 h5 {
     font-family: 'cabinet';
     font-weight: 700;
-    color: var(--blue);
+    color: var(--green);
 }
 
 h1 {
@@ -107,7 +107,7 @@ label {
 
 button {
     padding: 0.75rem 1.25rem;
-    background: linear-gradient(50deg, var(--dark-blue) 10%, var(--blue));
+    background: linear-gradient(50deg, var(--dark-green) 10%, var(--green));
     font-size: 1.1rem;
     cursor: pointer;
     color: var(--white);

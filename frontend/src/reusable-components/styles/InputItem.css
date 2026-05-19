@@ -21,8 +21,8 @@ textarea {
 select:focus,
 textarea:focus {
     border: 2px solid white;
-    outline: 4px solid var(--dark-blue);
-    border: 2px solid var(--blue);
+    outline: 4px solid var(--dark-green);
+    border: 2px solid var(--green);
 }
 
 .input-error-span {
